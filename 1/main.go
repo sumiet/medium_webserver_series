@@ -3,7 +3,7 @@ package main
 import (
 	"net/http"
 
-	"medium/web_server/server"
+	"medium/medium_webserver_series/1/server"
 )
 
 func main() {
