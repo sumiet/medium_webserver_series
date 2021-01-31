@@ -1,0 +1,27 @@
+syntax = "proto3";
+package users;
+
+option go_package = ".;user";
+
+// Users Service
+service Users {
+  // GetUsers
+  rpc GetUsers(EmptyReq) returns (stream GetUsersResponse) {};
+}
+
+// EmptyReq message
+message EmptyReq {}
+
+// GetUsersResponse message
+message GetUsersResponse {
+  // User message
+  User user = 1;
+}
+
+// User message
+message User {
+  // The user name
+  string name = 1;
+  // The user age
+  int32 age = 2;
+}
