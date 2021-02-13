@@ -10,5 +10,5 @@ Folder | Article
 2 | [Dependency Injection in Go using Fx](https://medium.com/swlh/dependency-injection-in-go-using-fx-6a623c5c5e01)
 3 | [Writing Fx Modules](https://levelup.gitconnected.com/writing-fx-modules-517193b9c4f0)
 4 | [Writing an RPC server in Go](https://levelup.gitconnected.com/writing-an-rpc-server-in-go-eb9afd56d1e1)
-5 | [Using gRPC and ProtoBuf in GoLang]()
+5 | [Using gRPC and ProtoBuf in GoLang](https://sumit-agarwal.medium.com/using-grpc-and-protobuf-in-golang-9c218d662db3)
 
