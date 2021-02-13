@@ -6,7 +6,7 @@ option go_package = ".;user";
 // Users Service
 service Users {
   // GetUsers
-  rpc GetUsers(EmptyReq) returns (stream GetUsersResponse) {};
+  rpc GetUsers(EmptyReq) returns (GetUsersResponse) {};
 }
 
 // EmptyReq message
@@ -15,7 +15,7 @@ message EmptyReq {}
 // GetUsersResponse message
 message GetUsersResponse {
   // User message
-  User user = 1;
+  repeated User users = 1;
 }
 
 // User message
